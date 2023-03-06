@@ -1,0 +1,150 @@
+body {
+    background: #F3F5FC;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+
+#banner {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+main {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header, .campo {
+    width: 65vw;
+}
+
+#mensagem {
+    color: #194c8a;
+    width: 400px;
+}
+
+.info{
+    /*width: 228px;*/
+    height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    margin-bottom: 10px;
+}
+
+textarea {
+    font-weight: bold;
+    background-color: transparent;
+    resize: none;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.2em;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+textarea::placeholder{
+    color:#194c8a;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+#botaoCodificar{
+    padding: 24px;
+    gap: 8px;
+    width: 300px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    margin-right: 20px;
+}
+
+#botaoDescodificar
+{
+    padding: 24px;
+    gap: 8px;
+    width: 300px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.resultado {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+#busca{
+    text-align: center;
+    color: #343A40;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction:column;
+    height: 100%;
+}
+
+.img{
+    width: 336px;
+    height: 304px;
+    top: 283px;
+    left: 40px;
+    text-align: center;
+    
+}
+
+#text-resultado {
+    width: 400px;
+    height: 800px;
+    color: #495057;
+}
+
+.botoes2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#copy, #limpar{
+    padding: 24px;
+    margin: 0 20px;
+    gap: 8px;
+    width: 164px;
+    height: 67px;
+    background: #FFFFFF;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
