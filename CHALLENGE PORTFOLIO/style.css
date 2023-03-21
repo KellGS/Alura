@@ -1,6 +1,10 @@
 /*CSS Reset / Normalize*/
 
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     background-color: #F5F5F5;
